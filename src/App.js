@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Button from '@material-ui/core/Button';
 
 function App() {
   return (
@@ -16,8 +17,11 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          
         </a>
+        <Button onClick={() => window.open("http://google.com")} variant="contained" style={{backgroundColor: '#06006A',color:'white', height: 40, width: 232}}>
+        Yep It's me - let's do it!
+      </Button>
       </header>
     </div>
   );

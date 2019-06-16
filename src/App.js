@@ -20,7 +20,7 @@ function App() {
           
         </a>
         <Button onClick={() => window.open("http://google.com")} variant="contained" style={{backgroundColor: '#06006A',color:'white', height: 40, width: 232}}>
-        Yep It's me - let's do it!
+        Yep It's Pooja - let's do it!
       </Button>
       </header>
     </div>
